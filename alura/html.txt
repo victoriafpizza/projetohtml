@@ -38,4 +38,6 @@ forma, todos os locais selecionados serão editados simultaneamente
 
 UNIDADES DE MEDIDA
 
+um REM por padrão do browser equivale a 16 pixels, desse modo, 24px dividido por 16px do REM é igual a 1.5rem.
+
  
