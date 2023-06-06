@@ -40,4 +40,20 @@ UNIDADES DE MEDIDA
 
 um REM por padrão do browser equivale a 16 pixels, desse modo, 24px dividido por 16px do REM é igual a 1.5rem.
 
- 
+ Media Queries 
+
+para adaptar um porjeto para diversos tipos de telas, precisamos configurar os seus pontos de quebra do layout, os 
+famosos break points. Parte do layout leva em consideração um intervalo de largura que vai de, no minimo 300 pixels, 
+até no minimo, 700 pixels
+
+Para definir uma largura maxima de 480px para o celular, e em outra media querie definir uma largura, maxima de 800px
+para os tablets: @media (max-width: 800px), e então atribuimos os ajustes necessário sdentro de cada media querie, 
+dessa forma teremos nosso site 100% responsivo. 
+
+Podemos definir tb os intervalos para os tamanhos de telas com um unico media querie, atribuimos o valor minimo e depois
+o valor maximo sperando ele pelo atributo "and"
+
+@media (min-width: 480px) and (max-width: 800px), nesse caso os estilos serão aplicados em telas de no minimo 
+"480px" e de no maximo "800px"
+*sempre deixar os sites responsivos
+
